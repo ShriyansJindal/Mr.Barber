@@ -114,6 +114,12 @@ body{
     color: #b58f60;
     padding: 10px;
     margin-top: 40px;
+    box-shadow: inset 0 0 0 0 #ad814b;
+    transition: .5s all linear;
+}
+.text-below button:hover{
+    box-shadow:inset 0 0 150px 0 #b58f60;
+    color: white;
 }
 
 
@@ -247,6 +253,9 @@ body{
 }
 
 /* services */
+#service{
+    height: 1100px;
+}
 .service-bg{
     background-image: url(https://preview.colorlib.com/theme/thebarber/img/banner/banner_service.png);
     background-size: cover;
@@ -254,6 +263,7 @@ body{
     box-shadow: inset 1400px 0 0 0  rgba(0, 0, 0, 0.169);
     text-align: center;
     /* padding: 100px 0px; */
+    
     
 }
 .our-service {
@@ -270,14 +280,16 @@ body{
 .services{
     margin: auto;
     width: 90%;
-    height: 700px;
+    /* height: 700px; */
     /* border: 2px solid greenyellow; */
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
     box-shadow: 0 2px 20px 0 black;
+    justify-content: center;
 }
 .service-box{
-    width: 50%;
+    width: 460px;
     /* border: 2px solid red; */
     height: 500px;
     padding: 40px 50px;
@@ -310,3 +322,87 @@ body{
 .right{
     color: #ad814b;
 }
+.appointment-btn button{
+    color: white;
+    background-color: #b58f60;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 50px;
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.1);
+    transition: all .5s linear;
+    border: none;
+}
+.appointment-btn button:hover{
+    box-shadow: inset 0 100px 0px 0px rgba(0, 0, 0, 0.1) ;
+}
+
+/* team */
+.team{
+    width: 99%;
+    height: 600px;
+    background-color: black;
+    /* margin-top: 500px; */
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+
+}
+.team-heading{
+    font-size: 25px;
+}
+.team-heading span{
+    color: #ad814b;
+}
+
+.team-members{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.team-members button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #ad814b;
+    border: none;
+}
+.barber-intro{
+    /* border: 2px solid white; */
+    width: 99%;
+    height: 350px;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.barber-pic{
+    width: 25%;
+    /* border: 2px solid white; */
+    background-size: cover;
+}
+.about-barber{
+    width: 400px;
+    /* border: 2px solid white; */
+    text-align: left;
+    padding: 20px 40px;
+}
+.about-barber p{
+    color: gray;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.about-barber i{
+    font-size: 25px;
+    margin: 5px;
+}
+.barber-service-list{
+    width: 20%;
+    /* border: 2px solid white; */
+    padding: 20px ;
+    text-align: left;
+}
+.barber-service-list li{
+    list-style: none;
+    font-size: 20px;
+    color: gray;
+    line-height: 1.5;
+}
+
