@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&family=Bellota+Text&family=Indie+Flower&family=Mulish&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=Bellota+Text&family=Indie+Flower&family=Mulish&family=Poppins&family=Roboto&display=swap');
 
 body{
     margin: 0;
@@ -172,3 +173,76 @@ body{
 #service-photo4{
     background-image: url(https://preview.colorlib.com/theme/barbero/images/services-4.jpg.webp);
 }
+
+/* about us */
+.aboutUs{
+    /* width: 99%; */
+    height: 560px;
+    /* border: 2px solid black; */
+    padding: 0px 70px;
+    display: flex;
+    justify-content: center;
+}
+.about-pic{
+    background-image: url(https://preview.colorlib.com/theme/barbero/images/about-1.jpg.webp);
+    background-position: center;
+    background-size: 100%;
+    width: 50%;
+}
+.about-text{
+    width: 50%;
+    /* border: 2px solid yellow; */
+    padding: 80px 50px;
+    padding-right: 0%;
+}
+.about-text h4{
+    color: #ad814b;
+    font-size: 18px;
+    margin: 0;
+}
+.about-text h1{
+    margin-top: 0%;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.about-text p{
+    line-height: 2;
+    font-size: 18px;
+    width: 450px;
+
+}
+.experience{
+    background-color: #b58f60;
+    padding: 10px ;
+    width: 300px;
+    display: flex;
+    color: white;
+    align-items: center;
+    
+}
+.experience .calender{
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.exp-text{
+    /* border: 2px solid red; */
+    margin: 0px 20px;
+}
+.exp-text h2{
+    margin: 0%;
+    font-family: "Poppins";
+    font-weight: bolder;
+}
+.exp-text p{
+    margin: 0%;
+    width: fit-content;
+    font-weight: 900;
+}
+
