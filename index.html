@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -157,7 +157,42 @@
                 </div>
             </div>
             <div class="appointment-btn">
-                <button>MAKE AN APPOINTMENT</button>
+                <button id="appointment" onclick="openform()" >MAKE AN APPOINTMENT</button>
+                <h1 id="thankyou">Thankyou For Booking</h1>
+            </div>
+            <div class="form" id="form">
+                <form action="" >
+                    <h1>Make an Appointement</h1>
+                    <button onclick="closeform()" id="close" >X</button>
+                    <div>
+                        <input id="date" type="date" required>
+                        <input type="time" required>
+                    </div>
+                    <div>
+                        <select name="service" required id="">
+                            <option value="">Services</option>
+                            <option value="">Hair cut</option>
+                            <option value="">Shave</option>
+                            <option value="">Services 2 </option>
+                            <option value="">Services 3</option>
+                        </select>
+                        <select name="branch" required id="">
+                            <option value="">branch</option>
+                            <option value="">undri</option>
+                            <option value="">loni</option>
+                            <option value="">Hadapsar </option>
+                        </select>
+                        
+                    </div>
+                    <div>
+                        <input type="text" required placeholder="Your Name">
+                        <input type="number" required placeholder="Mobile Number">
+                    </div>
+                    <div>
+                        <input type="submit" id="submit" value="Book">
+                        
+                    </div>
+                </form>
             </div>
         </div>
     </div>

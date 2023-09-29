@@ -6,6 +6,11 @@ const dhruv = document.getElementById("dhruv")
 const barber_pic = document.getElementById("barber-photo")
 const barber_name = document.getElementById("barber-name")
 
+const form = document.getElementById("form");
+
+const submit = document.getElementById("submit");
+const thankyou = document.getElementById("thankyou")
+const apointment = document.getElementById("appointment")
 james.onclick=()=>{
     james.style.boxShadow = "#525252 0px 0px 5px 5px";
     raju.style.boxShadow = "none";
@@ -41,4 +46,21 @@ dhruv.onclick=()=>{
     barber_name.innerText = "Dhruv";
     barber_pic.style.backgroundImage = "url(https://nypost.com/wp-content/uploads/sites/2/2015/06/barber_mendoza1a.jpg?resize=1064,709&quality=75&strip=all)";
     barber_pic.style.backgroundPosition = "center";
+}
+const body = document.body;
+function openform(){
+    form.style.display = "block";
+    form.style.boxShadow = "0px 0px 0px 400px #000000ad";
+    
+}
+function closeform (){
+    form.style.display = "none";
+}
+submit.onclick =()=>{
+       
+    submit.style.display= "none";
+    thankyou.style.display= "block";
+    form.style.display= "none";
+    apointment.style.display = "none";
+    // alert("Thankyou for Booking");
 }
