@@ -177,7 +177,7 @@ body{
 /* about us */
 .aboutUs{
     /* width: 99%; */
-    height: 560px;
+    height: 600px;
     /* border: 2px solid black; */
     padding: 0px 70px;
     display: flex;
@@ -244,5 +244,46 @@ body{
     margin: 0%;
     width: fit-content;
     font-weight: 900;
+}
+
+/* services */
+.service-bg{
+    background-image: url(https://preview.colorlib.com/theme/thebarber/img/banner/banner_service.png);
+    background-size: cover;
+    height: 600px;
+    box-shadow: inset 1400px 0 0 0  rgba(0, 0, 0, 0.169);
+    text-align: center;
+    /* padding: 100px 0px; */
+    
+}
+.our-service {
+    width: fit-content;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: 100px 0px;
+    color: white;
+    letter-spacing: 2px;
+}
+.our-service i{
+    font-size: 30px;
+}
+.services{
+    margin: auto;
+    width: 90%;
+    height: 700px;
+    border: 2px solid greenyellow;
+    background-color: white;
+    display: flex;
+}
+.service-box{
+    width: 50%;
+    border: 2px solid red;
+    height: 500px;
+    padding: 40px 50px;
+}
+.service-box .box{
+    border: 2px solid blue;
+    /* width: 99%; */
+    height: 100px;
 }
 
