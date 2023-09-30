@@ -408,6 +408,9 @@ body{
     background-color: #ad814b;
     border: none;
 }
+#james{
+    box-shadow: #525252 0px 0px 5px 5px;
+}
 .barber-intro{
     /* border: 2px solid white; */
     width: 99%;
