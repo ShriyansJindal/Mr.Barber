@@ -19,7 +19,7 @@ function Changeby(){
     const backgroundImg = images[Math.floor(Math.random() * images.length)];
     background.style.backgroundImage = backgroundImg;
 }
-setInterval(Changeby,3000)
+setInterval(Changeby,4000)
 
 
 james.onclick=()=>{
@@ -67,7 +67,8 @@ function openform(){
 function closeform (){
     form.style.display = "none";
 }
-submit.onclick =()=>{
+const appointment_form = document.getElementById("appointment-form");
+appointment_form.onsubmit =()=>{
        
     submit.style.display= "none";
     thankyou.style.display= "block";
@@ -75,3 +76,12 @@ submit.onclick =()=>{
     apointment.style.display = "none";
     // alert("Thankyou for Booking");
 }
+const news_form = document.getElementById("newsletter");
+const subscribe = document.getElementById("subscribe");
+news_form.onsubmit=()=>{
+    alert("Copy below code to get 10% off\n\nCode: asdfghjkjhgf6545")
+    subscribe.style.backgroundColor = "red";
+    subscribe.innerText = "SUBSCRIBED";
+}
+
+

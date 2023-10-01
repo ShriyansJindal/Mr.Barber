@@ -192,7 +192,7 @@ body{
     justify-content: center;
 }
 .about-pic{
-    /* background-image: url(bg2.jpg); */
+    background-image: url(jason-leung-2seUdPQNy_I-unsplash.jpg);
     background-position: center;
     background-size: 100%;
     width: 50%;
@@ -383,7 +383,6 @@ body{
 
 /* team */
 .team{
-    width: 99%;
     height: 600px;
     background-color: black;
     /* margin-top: 500px; */
@@ -455,3 +454,47 @@ body{
 }
 
 
+/* newsletter */
+
+.newsletter{
+    height: 350px;
+    padding: 50px 0px;
+    background-color: #ad814b;
+    display: flex;
+    justify-content: center;
+}
+.newsletter-img{
+    width: 26%;
+    background-image: url(Screenshot_2023-10-01_142945-removebg-preview.png);
+    background-size: 100% 100%;
+}
+.newsletter-text{
+    width: 40%;
+    /* border: 2px solid red; */
+    padding: 50px 10px;
+    color: white;
+}
+.newsletter-text h3{
+    margin: 2px;
+}
+.newsletter-text h1{
+    margin: 2px;
+    font-size: 50px;
+}
+.newsletter-text p{
+    margin: 20px 2px;
+    line-height: 1.5;
+    color: rgb(220, 220, 220);
+}
+.newsletter-text input{
+    padding:15px 20px;
+    width: 300px;
+    border: none;
+    margin-top: 50px;
+}
+.newsletter-text button{
+    color: white;
+    background-color: black;
+    padding:15px 10px;
+    border: none;
+}

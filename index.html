@@ -161,9 +161,13 @@
                 <h1 id="thankyou">Thankyou For Booking</h1>
             </div>
             <div class="form" id="form">
-                <form action="" >
+                <form action="#" id="appointment-form"  onsubmit="yourJsFunction();return false">
                     <h1>Make an Appointement</h1>
                     <button onclick="closeform()" id="close" >X</button>
+                    <div>
+                        <input type="text" required placeholder="Your Name">
+                        <input type="number" required placeholder="Mobile Number">
+                    </div>
                     <div>
                         <input id="date" type="date" required>
                         <input type="time" required>
@@ -183,10 +187,6 @@
                             <option value="">Hadapsar </option>
                         </select>
                         
-                    </div>
-                    <div>
-                        <input type="text" required placeholder="Your Name">
-                        <input type="number" required placeholder="Mobile Number">
                     </div>
                     <div>
                         <input type="submit" id="submit" value="Book">
@@ -226,6 +226,17 @@
                 <li>Face Massage</li>
                 <li>Hair Treatment</li>
             </div>
+        </div>
+    </div>
+    <div class="newsletter">
+        <div class="newsletter-img"></div>
+        <div class="newsletter-text">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <H1>Get 10% Discount</H1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quisquam laudantium reprehenderit recusandae animi dicta voluptates perspiciatis doloribus iure.</p>
+            <form action="#" id="newsletter" onsubmit="yourJsFunction();return false">
+                <input type="email" required placeholder="Enter your Email"><button type="submit" id="subscribe">SUBSCRIBE</button>
+            </form>
         </div>
     </div>
     
