@@ -161,7 +161,7 @@
                 <h1 id="thankyou">Thankyou For Booking</h1>
             </div>
             <div class="form" id="form">
-                <form action="#" id="appointment-form"  onsubmit="yourJsFunction();return false">
+                <form action="#" id="appointment-form" >
                     <h1>Make an Appointement</h1>
                     <button onclick="closeform()" id="close" >X</button>
                     <div>
@@ -169,19 +169,19 @@
                         <input type="number" required placeholder="Mobile Number">
                     </div>
                     <div>
-                        <input id="date" type="date" required>
-                        <input type="time" required>
+                        <input id="date" type="date" required value="2023-10-01" >
+                        <input type="time" required value="09:12">
                     </div>
                     <div>
                         <select name="service" required id="">
                             <option value="">Services</option>
                             <option value="">Hair cut</option>
                             <option value="">Shave</option>
-                            <option value="">Services 2 </option>
-                            <option value="">Services 3</option>
+                            <option value="">Face massage </option>
+                            <option value="">other</option>
                         </select>
                         <select name="branch" required id="">
-                            <option value="">branch</option>
+                            <option value="">Branch</option>
                             <option value="">undri</option>
                             <option value="">loni</option>
                             <option value="">Hadapsar </option>
@@ -234,11 +234,47 @@
             <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
             <H1>Get 10% Discount</H1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quisquam laudantium reprehenderit recusandae animi dicta voluptates perspiciatis doloribus iure.</p>
-            <form action="#" id="newsletter" onsubmit="yourJsFunction();return false">
+            <form action="#" id="newsletter">
                 <input type="email" required placeholder="Enter your Email"><button type="submit" id="subscribe">SUBSCRIBE</button>
             </form>
         </div>
     </div>
-    
+    <footer>
+        <div class="left foot-box">
+            <h1>Mr.BARBER</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus totam ab quidem, voluptas reprehenderit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam velit iure accusantium ducimus itaque, ratione animi hic magni voluptatum error.</P>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+        </div>
+        <div class="center foot-box">
+            <h1>Navigation</h1>
+            <ul>
+                <li>Home</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+                <li>About Us</li>
+                <li>Team</li>
+            </ul>
+        </div>
+        <div class="right-foot foot-box">
+            <h1>Contact Us</h1>
+            <div class="address">
+                <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                <p>+91 9876523497</p>
+            </div>
+            <div class="address">
+                <i class="fa-regular fa-paper-plane" style="color: #ffffff;"></i>
+                <p>mrbarber@gmail.com</p>
+            </div>
+            <div class="address">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.8039317048006!2d74.02069888396676!3d18.48993298282677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e8044afb410f%3A0x1b3cd77023995098!2sVishwaraj%20Hospital%2C%20Loni%20Kalbhor%2C%20Maharashtra%20412201!5e0!3m2!1sen!2sin!4v1696160900167!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+        </div>
+    </footer>
+    <div class="copyright">
+        Copyright ©2023 All rights reserved
+    </div>
 </body>
 </html>

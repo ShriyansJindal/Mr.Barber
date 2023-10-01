@@ -21,6 +21,7 @@ function Changeby(){
 }
 setInterval(Changeby,4000)
 
+// expert team
 
 james.onclick=()=>{
     james.style.boxShadow = "#525252 0px 0px 5px 5px";
@@ -58,6 +59,9 @@ dhruv.onclick=()=>{
     barber_pic.style.backgroundImage = "url(https://nypost.com/wp-content/uploads/sites/2/2015/06/barber_mendoza1a.jpg?resize=1064,709&quality=75&strip=all)";
     barber_pic.style.backgroundPosition = "center";
 }
+
+// appointement form
+
 const body = document.body;
 function openform(){
     form.style.display = "block";
@@ -75,13 +79,17 @@ appointment_form.onsubmit =()=>{
     form.style.display= "none";
     apointment.style.display = "none";
     // alert("Thankyou for Booking");
+    return false;
 }
+
+// Newsletter form
 const news_form = document.getElementById("newsletter");
 const subscribe = document.getElementById("subscribe");
 news_form.onsubmit=()=>{
     alert("Copy below code to get 10% off\n\nCode: asdfghjkjhgf6545")
     subscribe.style.backgroundColor = "red";
     subscribe.innerText = "SUBSCRIBED";
+    return false;
 }
 
 
