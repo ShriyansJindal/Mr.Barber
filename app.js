@@ -11,6 +11,17 @@ const form = document.getElementById("form");
 const submit = document.getElementById("submit");
 const thankyou = document.getElementById("thankyou")
 const apointment = document.getElementById("appointment")
+
+
+const background = document.getElementById("change-bg");
+function Changeby(){
+    const images = ['url("bg1.avif")','url("bg2.jpg")','url("bg3.jpg")']
+    const backgroundImg = images[Math.floor(Math.random() * images.length)];
+    background.style.backgroundImage = backgroundImg;
+}
+setInterval(Changeby,3000)
+
+
 james.onclick=()=>{
     james.style.boxShadow = "#525252 0px 0px 5px 5px";
     raju.style.boxShadow = "none";
