@@ -68,6 +68,7 @@ body{
 }
 .navbar-scrolled .navbar a:hover{
     color: black;
+
 }
 
 .nav-element{
@@ -94,6 +95,7 @@ body{
     /* color: white; */
     box-shadow: inset 160px 0 0 0 rgba(0, 0, 0, 0.175) ;
     color: white;
+    cursor: pointer;
 }
 .navbar-scrolled .navbar button:hover{
     box-shadow:inset 160px 0 0 0 black;
@@ -353,7 +355,8 @@ body{
 .appointment-btn button{
     color: white;
     background-color: #b58f60;
-    padding: 10px 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
     font-size: 16px;
     margin: 30px;
     margin-bottom: 0%;
@@ -362,7 +365,8 @@ body{
     border: none;
 }
 .appointment-btn button:hover{
-    box-shadow: inset 0 100px 0px 0px rgba(0, 0, 0, 0.1) ;
+    box-shadow: inset 0 100px 0px 0px rgb(0, 0, 0) ;
+    cursor: pointer;
 }
 
 /* form popup */
@@ -434,6 +438,7 @@ body{
     color: white;
     background-color: #ad814b;
     border: none;
+    cursor: pointer;
 }
 #james{
     box-shadow: #525252 0px 0px 5px 5px;
@@ -531,6 +536,7 @@ body{
     border: none;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
+    cursor: pointer;
 }
 
 /* footer */

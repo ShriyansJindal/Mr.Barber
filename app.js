@@ -13,6 +13,20 @@ const thankyou = document.getElementById("thankyou")
 const apointment = document.getElementById("appointment")
 
 
+const nav = document.getElementById("nav");
+const nav_element = document.querySelector(".nav-element");
+window.addEventListener('scroll',()=>{
+    if(window.scrollY>100){
+        nav.classList.add("navbar-scrolled");
+        nav_element.style.color = 'Black';
+    }
+    else{
+        nav.classList.remove("navbar-scrolled");
+        nav_element.style.color = 'White';
+    }
+})
+
+// background
 const background = document.getElementById("change-bg");
 function Changeby(){
     const images = ['url("bg1.avif")','url("bg2.jpg")','url("bg3.jpg")']
@@ -91,16 +105,7 @@ news_form.onsubmit=()=>{
     subscribe.innerText = "SUBSCRIBED";
     return false;
 }
-const nav = document.getElementById("nav");
-const nav_element = document.querySelector(".nav-element");
-window.addEventListener('scroll',()=>{
-    if(window.scrollY>100){
-        nav.classList.add("navbar-scrolled");
-        nav_element.style.color = 'Black';
-    }
-    else{
-        nav.classList.remove("navbar-scrolled");
-        nav_element.style.color = 'White';
-    }
-})
+
+
+
 
