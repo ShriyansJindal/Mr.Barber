@@ -107,5 +107,3 @@ news_form.onsubmit=()=>{
 }
 
 
-
-
